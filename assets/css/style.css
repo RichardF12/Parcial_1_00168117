@@ -64,7 +64,7 @@ font {
 }
 
 body{
-    min-width: 20em;
+    min-width: 40em;
     background: #202024;
     color: rgba(255, 255, 255, 0.75);
     font-family: sans-serif;
@@ -139,10 +139,10 @@ header p {
     font-weight: 350;
 }
 
+
 #front a {
-    color: rgba(255, 255, 255, 0.75);
+    color: #fff;
     text-decoration: none;
-    border-bottom: 1px dotted;
 }
 
 #front a:hover {
@@ -150,17 +150,11 @@ header p {
     border: none;
 }
 
-#front .next {
-    background-image: url("assets/img/angle-down-solid.svg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: auto;
-    border: 1px solid #fff;
-    border-radius: 100%;
-    color: rgba(255, 255, 255, 0.75);
+#front .next i {
+    color: #fff;
     display: block;
     height: 4em;
-    text-indent: 4em;
+    text-indent: 0em;
     width: 4em;
     margin: 0 auto 2em auto;
 }
@@ -303,6 +297,10 @@ ul.icons li i {
     margin: 0 auto;
     display: flex;
     flex-flow: row wrap;
+}
+
+#footer .inside ul {
+    flex-flow: column;
 }
 
 #footer a {
