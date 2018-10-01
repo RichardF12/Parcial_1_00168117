@@ -79,7 +79,7 @@ p {
 }
 
 h1, h2, h3{
-    font-weight: 400;
+    font-weight: 350;
     line-height: 1.5;
     margin: 0 0 1em 0;
 }
@@ -91,6 +91,7 @@ h1 a, h2 a, h3 a{
 
 h2 {
     font-size: 1.5em;
+    color: #612e1d;
 }
 
 h3 {
@@ -285,8 +286,8 @@ ul.icons li {
 }
 
 ul.icons li i {
-    display: flex;
-    flex-direction: column;
+    text-decoration: none;
+    border: none;
 }
 
 /* Footer */
