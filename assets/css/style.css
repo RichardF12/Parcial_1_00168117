@@ -110,7 +110,7 @@ header p {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 8em 4em 6em 4em;
+    padding: 8em 4em 0em 4em;
     min-height: 50vh;
     background-image: url("../img/concierto.jpg");
     background-position: center;
@@ -131,12 +131,14 @@ header p {
     font-weight: 400;
     font-family: 'Monoton', cursive;
     margin: 0;
+    padding-bottom: 0.5em;
 }
 
 #front p {
     color: #fff;
     font-size: 1em;
     font-weight: 350;
+    padding-bottom: 2em;
 }
 
 
